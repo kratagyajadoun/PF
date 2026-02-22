@@ -5,14 +5,14 @@ import { useRef } from 'react';
 import { config } from '../config';
 
 const LeetCodeIcon = ({ size = 18 }) => (
-  <svg 
-    width={size} 
-    height={size} 
-    viewBox="0 0 24 24" 
-    fill="currentColor" 
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="currentColor"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <path d="M13.483 0a1.374 1.374 0 0 0-.961.414l-4.377 4.517a1.358 1.358 0 0 0-.415.962c0 .355.14.704.415.962L11.39 9.97a1.357 1.357 0 0 0 .961.414 1.357 1.357 0 0 0 .961-.414l4.377-4.517a1.358 1.358 0 0 0 .415-.962 1.358 1.358 0 0 0-.415-.962L14.444.414A1.357 1.357 0 0 0 13.483 0zm-6.103 5.69a1.357 1.357 0 0 0-.961.414l-4.377 4.517a1.358 1.358 0 0 0-.415.962c0 .355.14.704.415.962L5.29 15.66a1.357 1.357 0 0 0 .961.414 1.357 1.357 0 0 0 .961-.414l4.377-4.517a1.358 1.358 0 0 0 .415-.962 1.358 1.358 0 0 0-.415-.962L8.344 6.104a1.357 1.357 0 0 0-.961-.414zM12.13 13.51a1.357 1.357 0 0 0-.961.414l-4.377 4.517a1.358 1.358 0 0 0-.415.962c0 .355.14.704.415.962l3.248 3.116a1.357 1.357 0 0 0 .961.414 1.357 1.357 0 0 0 .961-.414l4.377-4.517a1.358 1.358 0 0 0 .415-.962 1.358 1.358 0 0 0-.415-.962l-3.248-3.116a1.357 1.357 0 0 0-.961-.414z"/>
+    <path d="M13.483 0a1.374 1.374 0 0 0-.961.414l-4.377 4.517a1.358 1.358 0 0 0-.415.962c0 .355.14.704.415.962L11.39 9.97a1.357 1.357 0 0 0 .961.414 1.357 1.357 0 0 0 .961-.414l4.377-4.517a1.358 1.358 0 0 0 .415-.962 1.358 1.358 0 0 0-.415-.962L14.444.414A1.357 1.357 0 0 0 13.483 0zm-6.103 5.69a1.357 1.357 0 0 0-.961.414l-4.377 4.517a1.358 1.358 0 0 0-.415.962c0 .355.14.704.415.962L5.29 15.66a1.357 1.357 0 0 0 .961.414 1.357 1.357 0 0 0 .961-.414l4.377-4.517a1.358 1.358 0 0 0 .415-.962 1.358 1.358 0 0 0-.415-.962L8.344 6.104a1.357 1.357 0 0 0-.961-.414zM12.13 13.51a1.357 1.357 0 0 0-.961.414l-4.377 4.517a1.358 1.358 0 0 0-.415.962c0 .355.14.704.415.962l3.248 3.116a1.357 1.357 0 0 0 .961.414 1.357 1.357 0 0 0 .961-.414l4.377-4.517a1.358 1.358 0 0 0 .415-.962 1.358 1.358 0 0 0-.415-.962l-3.248-3.116a1.357 1.357 0 0 0-.961-.414z" />
   </svg>
 );
 
@@ -123,7 +123,7 @@ const Hero = () => {
 
         {/* Sub */}
         <motion.p variants={slide} style={{ color: 'var(--text-sub)', fontSize: '1.05rem', maxWidth: '480px', marginBottom: '2.5rem', lineHeight: 1.65 }}>
-        Software Engineer with 4+ years of experience building scalable, production-grade systems and driving end-to-end ownership of features from design to deployment.
+          Software Engineer with 4+ years of experience building scalable, production-grade systems and driving end-to-end ownership of features from design to deployment.
         </motion.p>
 
         {/* Actions */}
@@ -144,7 +144,8 @@ const Hero = () => {
 
           <motion.a
             whileHover={{ scale: 1.03 }}
-            href="/resume.pdf"
+            href="/kratagyajadoun_sde2.pdf"
+            download="Kratagya_Jadoun_Resume.pdf"
             style={{
               display: 'flex', alignItems: 'center', gap: '0.4rem',
               padding: '0.9rem 1.5rem', borderRadius: '100px',
